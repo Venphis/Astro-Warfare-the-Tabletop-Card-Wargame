@@ -1,0 +1,6 @@
+function filterObjectEnterContainer(container, object)
+    if object.tag == "Card" then -- add extra conditions here if you want
+        return false
+    end
+    return true
+end
